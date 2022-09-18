@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Weather | Check Your City Weather</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Weather.css">
+</head>
+
+<body>
+ 
+
+  <div id="Main-con">
+    <div id="search_City_Con">
+      <input type="text" name="" id="City_Input" placeholder="Enter Your City Name">
+      <div id="searchCity"  ></div>
+    </div>
+    <div class="info_con">
+      <div class="City_Name"></div>
+      <div class="temp"><span id="Temp_Con"></span><span>&#176;C</span></div>
+      <div class="Weather_Image_Con" ><div    id="WeatherImage"></div><span id="Weather_Name"></span></div>
+      <div class="humidity"><img src="img/Humidity.png"  width="40" height="40" alt="Humidity" ><span style="color: black;">Humidity : </span><span id="Humidity_Con"></span></div>
+      <div class="Wind"><img src="img/Wind.webp"  width="40" height="40" alt="Humidity"><span style="color: black;">Wind : </span><span id="Wind_Con">1</span><span>M/S</span></div>
+    </div>
+  </div>
+   <script src="Weather.js"></script>
+  </<body>
+
+</html>
